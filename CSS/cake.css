@@ -406,7 +406,8 @@ footer{
     position: absolute;
     margin: 3px;
     display: inline-block;
-    animation: load 3s ease infinite;
+    animation: load 3s ;
+    animation-iteration-count: 1;
   }
   #load{
     font-family: Arial;
